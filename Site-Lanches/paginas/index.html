@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Site Lanches</title>
+</head>
+<body>
+    <div id="conteudo">
+        <!-- CABEÇALHO -->
+        <header id="cabecalho">
+            <!-- NAVEGAÇÃO -->
+            <nav id="navecacao">
+                <!-- LOGO -->
+                <div id="nav_logo">
+                    <a href="index.html">
+                        <img id="logo" src="../imagens/logo.png" alt="Logo Hambúrguer" width="100px">
+                    </a>
+                </div>
+
+                <!-- LINKS -->
+                <div id="nav_links">
+                    <ul id="nav_lista">
+                        <!-- HOME -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <!-- CARDÁPIO -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="cardapio.html">Cardápio</a>
+                        </li>
+
+                        <!-- SOBRE -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- BANNER -->
+        <section id="banner_conteudo">
+            <!-- TEXTOS DO BANNER -->
+            <div id="banner_textos">
+                <h1 id="banner_titulo">Vitu Lanches</h1>
+                <span id="banner_slogan">Coma o quanto quiser pelo melhor preço!</span>
+                <a id="banner_link" href="cardapio.html">
+                    Confira o Cardápio
+                </a>
+            </div>
+            
+            <!-- IMAGEM DO BANNER -->
+            <div id="banner_img_conteudo">
+                <img id="banner_img" src="../imagens/banner.png" alt="Hambúrguer">
+            </div>
+        </section>
+
+        <!-- PROMOÇÕES DO DIA -->
+        <section id="promocoes_conteudo">
+            <h2 class="subtitulo">Promoções do Dia</h2>
+            <div id="promocoes">
+                <div class="promocao">
+                    <a href="cardapio.html#promocoes_conteudo" class="promo-link">
+                        <img class="promo-img" src="../imagens/hamburgueres/hamburguer-salada.png" alt="Hambúrguer">
+                        <span class="promo-preco-antigo"><s>R$ 16,99</s></span>
+                        <span class="promo-preco">R$ 12,99</span>
+                        <span class="promo-descricao">Salada Burguer</span>
+                    </a>
+                </div>
+
+                <div class="promocao">
+                    <a href="cardapio.html#promocoes_conteudo" class="promo-link">
+                        <img class="promo-img" src="../imagens/hamburgueres/duplo-burguer.png" alt="Hambúrguer">
+                        <span class="promo-preco-antigo"><s>R$ 19,99</s></span>
+                        <span class="promo-preco">R$ 14,99</span>
+                        <span class="promo-descricao">Duplo Burguer</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CATEGORIAS -->
+        <section id="categorias_conteudo">
+            <h2 class="subtitulo">Categorias</h2>
+            <div id="categorias">
+                <!-- HAMBURGUERES -->
+                <div class="categoria">
+                    <a class="categoria-link" href="cardapio.html#hamburgueres_conteudo">
+                        <img class="categoria-img" src="../imagens/hamburgueres/cheesburguer_duplo.png" alt="Hambúrguer">
+                        <h3 class="categoria-descricao">Hambúrgueres</h3>
+                    </a>
+                </div>
+    
+                <!-- PORÇÕES -->
+                <div class="categoria">
+                    <a class="categoria-link" href="cardapio.html#porcoes_conteudo">
+                        <img class="categoria-img" src="../imagens/porcoes/fritas.png" alt="Porção de Fritas">
+                        <h3 class="categoria-descricao">Porções</h3>
+                    </a>
+                </div>
+    
+                <!-- SOBREMESAS -->
+                <div class="categoria">
+                    <a class="categoria-link" href="cardapio.html#sobremesas_conteudo">
+                        <img class="categoria-img" src="../imagens/sobremesas/sobremesa.png" alt="Taças de Sorvete">
+                        <h3 class="categoria-descricao">Sobremesas</h3>
+                    </a>
+                </div>
+    
+                <!-- BEBIDAS -->
+                <div class="categoria">
+                    <a class="categoria-link" href="cardapio.html#bebidas_conteudo">
+                        <img class="categoria-img" src="../imagens/bebidas/bebida.png" alt="Copo de Refrigerante">
+                        <h3 class="categoria-descricao">Bebidas</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- RODAPÉ -->
+        <footer id="rodape">
+            
+            <!-- HORÁRIO DE FUNCIONAMENTO -->
+            <div id="horarios">
+                <!-- TABELA -->
+                <table id="tabela_horarios">
+                    <!-- DESCRIÇÃO DA TABELA -->
+                    <caption id="tabela_descricao">Horário de Funcionamento</caption>
+
+                    <!-- SEGUNDA -->
+                    <tr class="tabela-linha">
+                        <td class="dia">Segunda</td>
+                        <td class="horario">12:00 - 19:00</td>
+                    </tr>
+
+                    <!-- TERÇA -->
+                    <tr class="tabela-linha">
+                        <td class="dia">Terça</td>
+                        <td class="horario">12:00 - 19:00</td>
+                    </tr>
+
+                    <!-- QUARTA -->
+                    <tr class="tabela-linha">
+                        <td class="dia">Quarta</td>
+                        <td class="horario">12:00 - 19:00</td>
+                    </tr>
+
+                    <!-- QUINTA -->
+                    <tr class="tabela-linha">
+                        <td class="dia">Quinta</td>
+                        <td class="horario">12:00 - 19:00</td>
+                    </tr>
+
+                    <!-- SEXTA -->
+                    <tr class="tabela-linha">
+                        <td class="dia">Sexta</td>
+                        <td class="horario">06:00 - 23:00</td>
+                    </tr>
+
+                    <!-- SÁBADO -->
+                    <tr class="tabela-linha">
+                        <td class="dia">Sábado</td>
+                        <td class="horario">06:00 - 23:00</td>
+                    </tr>
+
+                    <!-- DOMINGO -->
+                    <tr class="tabela-linha">
+                        <td class="dia">Domingo</td>
+                        <td class="horario">Fechado</td>
+                    </tr>                  
+                </table>
+            </div>
+
+            <!-- ENTRE EM CONTATO -->
+            <div id="contato">
+                <!-- FORMULÁRIO DE CONTATO -->
+                <form action="" id="form_contato">
+                    <!-- NOME -->
+                    <div class="input-box">
+                        <label class="descricao-contato" for="nome">Nome:</label>
+                        <input class="input-contato" type="text" name="nome" id="nome" placeholder="Digite seu nome..." required>
+                    </div>
+
+                    <!-- TELEFONE -->
+                    <div class="input-box">
+                        <label class="descricao-contato" for="telefone">Telefone:</label>
+                        <input class="input-contato" type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone..." required>
+                    </div>
+
+                    <!-- MENSAGEM -->
+                    <div class="input-box">
+                        <label class="descricao-contato" for="mensagem">Mensagem:</label>
+                        <textarea class="input-contato" name="mensagem" id="mensagem" cols="20" rows="5" placeholder="Deixe uma mensagem..."></textarea>
+                    </div>
+                    
+                    <!-- ENVIAR -->
+                    <input id="enviar_contato" type="submit">
+                </form>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
